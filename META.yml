@@ -26,7 +26,7 @@ no_index:
 provides:
   JSON::RPC::Lite:
     file: lib/JSON/RPC/Lite.pm
-    version: '0.02'
+    version: '0.03'
 requires:
   JSON::RPC::Spec: '0'
   Plack: '0'
@@ -35,5 +35,5 @@ resources:
   bugtracker: https://github.com/nqounet/p5-json-rpc-lite/issues
   homepage: https://github.com/nqounet/p5-json-rpc-lite
   repository: https://github.com/nqounet/p5-json-rpc-lite.git
-version: '0.02'
+version: '0.03'
 x_authority: cpan:NQOUNET
