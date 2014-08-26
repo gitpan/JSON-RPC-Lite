@@ -5,6 +5,8 @@ META.json
 README.md
 cpanfile
 cpanfile.snapshot
+examples/echo.json
+examples/echo.psgi
 lib/JSON/RPC/Lite.pm
 minil.toml
 t/00_compile.t

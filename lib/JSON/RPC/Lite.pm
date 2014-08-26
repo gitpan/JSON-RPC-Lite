@@ -1,9 +1,8 @@
 package JSON::RPC::Lite;
-use 5.008001;
 use strict;
 use warnings;
 
-our $VERSION = "0.03";
+use version; our $VERSION = version->declare("v1.0.0");
 
 use JSON::RPC::Spec;
 use Plack::Request;

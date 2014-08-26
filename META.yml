@@ -3,6 +3,7 @@ abstract: 'Simple Syntax JSON RPC 2.0 Server Implementation'
 author:
   - 'nqounet <mail@nqou.net>'
 build_requires:
+  HTTP::Message: '0'
   Test::More: '0.98'
 configure_requires:
   Module::Build::Tiny: '0.035'
@@ -26,7 +27,7 @@ no_index:
 provides:
   JSON::RPC::Lite:
     file: lib/JSON/RPC/Lite.pm
-    version: '0.03'
+    version: v1.0.0
 requires:
   JSON::RPC::Spec: '0'
   Plack: '0'
@@ -35,5 +36,5 @@ resources:
   bugtracker: https://github.com/nqounet/p5-json-rpc-lite/issues
   homepage: https://github.com/nqounet/p5-json-rpc-lite
   repository: https://github.com/nqounet/p5-json-rpc-lite.git
-version: '0.03'
+version: v1.0.0
 x_authority: cpan:NQOUNET
